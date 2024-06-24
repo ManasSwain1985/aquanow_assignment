@@ -1,0 +1,34 @@
+[
+    {
+        "paymentType": "BTC",
+        "paymentStatus": "Unpaid"
+    },
+    {
+        "paymentType": "ETH",
+        "paymentStatus": "Unpaid"
+    },
+    {
+        "paymentType": "BCH",
+        "paymentStatus": "Unpaid"
+    },
+    {
+        "paymentType": "USDT",
+        "paymentStatus": "Unpaid"
+    },
+    {
+        "paymentType": "LTC",
+        "paymentStatus": "Unpaid"
+    },
+    {
+        "paymentType": "USDC",
+        "paymentStatus": "Unpaid"
+    },
+    {
+        "paymentType": "MATIC",
+        "paymentStatus": "Unpaid"
+    },
+    {
+        "paymentType": "SOL",
+        "paymentStatus": "Unpaid"
+    }
+]
