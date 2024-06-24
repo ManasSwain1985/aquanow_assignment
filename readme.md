@@ -1,14 +1,14 @@
 ## Summary
-Playwright framework with Typescript is used to automate the test cases. POM based framework was used for the automation.
-Currently the execution is done from Chrome, Firefox and Webkit browsers in headless mode. 
-The configuration can be updated from playwright.config.ts file.
-Screenshot is captured for the Payment Status page as part of E2E Test suite.
-The automation scripts were developed and tested in windows OS but the same should work for MAC OS as well
+- Playwright framework with Typescript is used to automate the test cases. POM based framework was used for the automation.
+- Currently the execution is done from Chrome, Firefox and Webkit browsers in headless mode. 
+- The configuration can be updated from playwright.config.ts file.
+- Screenshot is captured for the Payment Status page as part of E2E Test suite.
+- The automation scripts were developed and tested in windows OS but the same should work for MAC OS as well
 
 ## FAILED SCENARIO
-The Deposit Address is not being displayed in Payment Instruction page
-The Validation of the Deposit Address is not included as part of E2E TCs flow
-Payment History could not be verified due to unavailability of BackEnd
+- The Deposit Address is not being displayed in Payment Instruction page
+- The Validation of the Deposit Address is not included as part of E2E TCs flow
+- Payment History could not be verified due to unavailability of BackEnd
 
 ## Required software
 - Node js -> v.14 or above
@@ -28,11 +28,11 @@ Payment History could not be verified due to unavailability of BackEnd
 - Url and CustId are fetched from data/credential.json and can be updated if required
 
 ## Folder Structure
- - <tests> Contains the spec file (test suites)
- - <screens> Page Object Models based class for each screen
- - <locators> Locator Defination for all the screens
- - <data> Test Data in json format to be used for Execution
- - <base> Base Test class which would be used as fixtures in all the test scripts
+ - tests: Contains the spec file (test suites)
+ - screens: Page Object Models based class for each screen
+ - locators: Locator Defination for all the screens
+ - data: Test Data in json format to be used for Execution
+ - base: Base Test class which would be used as fixtures in all the test scripts
 
 ## Future Enhancements
 - Include more reporting structure
