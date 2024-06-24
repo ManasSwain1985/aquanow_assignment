@@ -5,10 +5,10 @@ The configuration can be updated from playwright.config.ts file.
 Screenshot is captured for the Payment Status page as part of E2E Test suite.
 The automation scripts were developed and tested in windows OS but the same should work for MAC OS as well
 
-##FAILED SCENARIO:
-# The Deposit Address is not being displayed in Payment Instruction page
-# The Validation of the Deposit Address is not included as part of E2E TCs flow
-# Payment History could not be verified due to unavailability of BackEnd
+## FAILED SCENARIO
+The Deposit Address is not being displayed in Payment Instruction page
+The Validation of the Deposit Address is not included as part of E2E TCs flow
+Payment History could not be verified due to unavailability of BackEnd
 
 ## Required software
 - Node js -> v.14 or above
